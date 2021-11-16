@@ -3,7 +3,7 @@ import {useState} from 'react'
 import Nav from "./components/Nav";
 import AgeAuth from "./components/AgeAuth"
 import routes from "./config/routes";
-// import "./App.css";
+import "./App.css";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false)
