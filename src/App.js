@@ -1,19 +1,23 @@
 import React from "react";
+import { useState } from "react";
 import Nav from "./components/Nav";
-import About from "./pages/About/About";
-import Home from "./pages/Home/Home";
+import AgeAuth from "./components/AgeAuth";
 import routes from "./config/routes";
 import "./App.css";
 
 function App() {
+  const [isAuth, setIsAuth] = useState(false);
+
   return (
     <div className="App">
-      <Nav />
-      <div className="content-container">
-        {/* {routes} */}
-        <Home />
-        <About />
-      </div>
+      {!isAuth ? (
+        <AgeAuth setIsAuth={setIsAuth} />
+      ) : (
+        <>
+          <Nav />
+          <div>{routes}</div>
+        </>
+      )}
     </div>
   );
 }
