@@ -8,7 +8,8 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="carousel-container">
+    <div className="home-container">
+      <h1>Home Page</h1>
       {/* <Carousel
         className="carousel"
         controls={false}
