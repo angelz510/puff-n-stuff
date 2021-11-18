@@ -16,29 +16,6 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <h1>Home Page</h1>
-      {/* <Carousel
-        className="carousel"
-        controls={false}
-        indicators
-        interval={2500}
-        pause={false}
-      >
-        <Carousel.Item>
-          <img className="d-block w-100" src={MainLogo} alt="First slide" />
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <img className="d-block w-100" src={Front} alt="Second slide" />
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <img className="d-block w-100" src={Counter} alt="Third slide" />
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <img className="d-block w-100" src={Glass} alt="Fourth slide" />
-        </Carousel.Item>
-      </Carousel> */}
     </div>
   );
 };
