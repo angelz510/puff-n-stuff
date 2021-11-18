@@ -12,6 +12,21 @@
 
 .nav-links {
   display: flex;
+  width: 300px;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.link {
+  padding: 9px 25px;
+  background-color: #188853;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+.link:hover {
+  background-color: #f5f410;
+  color: black;
 }
