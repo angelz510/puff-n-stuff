@@ -8,16 +8,10 @@ import AgeAuth from "../components/AgeAuth";
 const AppRoutes = (props) => {
   return (
     <Routes>
-      <>
-        <Route
-          exact
-          path="/"
-          element={<AgeAuth setIsAuth={props.setIsAuth} />}
-        />
-        <Route exact path="/home" element={<Home isAuth={props.isAuth} />} />
-        <Route path="/about" element={<About isAuth={props.isAuth} />} />
-        <Route path="/contact" element={<Contact isAuth={props.isAuth} />} />
-      </>
+      <Route exact path="/" element={<AgeAuth setIsAuth={props.setIsAuth} />} />
+      <Route exact path="/home" element={<Home isAuth={props.isAuth} />} />
+      <Route path="/about" element={<About isAuth={props.isAuth} />} />
+      <Route path="/contact" element={<Contact isAuth={props.isAuth} />} />
     </Routes>
   );
 };

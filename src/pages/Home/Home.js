@@ -12,7 +12,7 @@ const Home = (props) => {
 
   useEffect(() => {
     if (props.isAuth === false) navigate("/");
-  }, []);
+  }, [navigate, props.isAuth]);
   return (
     <div className="home-container">
       <h1>Home Page</h1>
