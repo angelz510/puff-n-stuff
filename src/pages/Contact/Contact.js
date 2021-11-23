@@ -8,6 +8,7 @@ const Contact = () => {
     <div className='contact-container'>
       <h1>Contact Page</h1>
       <iframe
+        className='maps'
         title='google maps'
         src={source}
         width='600'
