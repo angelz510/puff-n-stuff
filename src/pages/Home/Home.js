@@ -8,7 +8,7 @@ import Glass from "../../assets/glass.jpeg";
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div id='Home' className="home-container">
       <Carousel
         className="carousel"
         controls={false}
