@@ -14,6 +14,15 @@ const Contact = () => {
         width="600"
         height="400"
       />
+      <form action="https://formsubmit.co/your@email.com" method="POST">
+        <div>
+          <input type="text" name="name" required placeholder="Name" />
+        </div>
+        <div>
+          <input type="email" name="email" required />
+        </div>
+        <button type="submit">Send</button>
+      </form>
     </div>
   );
 };
