@@ -17,9 +17,11 @@ function App() {
       ) : (
         <>
           <MyNavbar />
+          <div className='content-container' >
           <Home />
           <About />
           <Contact />
+          </div>
         </>
       )}
     </div>

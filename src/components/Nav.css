@@ -6,6 +6,8 @@
   top:0;
   z-index: 1;
   background: #198853;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 .nav-logo {
