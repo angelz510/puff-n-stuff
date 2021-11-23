@@ -17,35 +17,19 @@ const Home = () => {
         pause={false}
       >
         <Carousel.Item>
-          <img
-            className="carousel-img d-block w-100"
-            src={MainLogo}
-            alt="First slide"
-          />
+          <img className="carousel-img " src={MainLogo} alt="First slide" />
         </Carousel.Item>
 
         <Carousel.Item>
-          <img
-            className="carousel-img d-block w-100"
-            src={Front}
-            alt="Second slide"
-          />
+          <img className="carousel-img " src={Front} alt="Second slide" />
         </Carousel.Item>
 
         <Carousel.Item>
-          <img
-            className="carousel-img d-block w-100"
-            src={Counter}
-            alt="Third slide"
-          />
+          <img className="carousel-img " src={Counter} alt="Third slide" />
         </Carousel.Item>
 
         <Carousel.Item>
-          <img
-            className="carousel-img d-block w-100"
-            src={Glass}
-            alt="Fourth slide"
-          />
+          <img className="carousel-img " src={Glass} alt="Fourth slide" />
         </Carousel.Item>
       </Carousel>
     </div>

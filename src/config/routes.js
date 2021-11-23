@@ -12,7 +12,7 @@ const AppRoutes = (props) => {
       <Route exact path="/home" element={<Home isAuth={props.isAuth} />} />
       <Route path="/about" element={<About isAuth={props.isAuth} />} />
       <Route path="/contact" element={<Contact isAuth={props.isAuth} />} />
-    </Routes>
+  </Routes>
   );
 };
 
