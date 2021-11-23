@@ -7,7 +7,12 @@ const Contact = () => {
   return (
     <div className='contact-container'>
       <h1>Contact Page</h1>
-      <iframe src={source} width='600' height='450'></iframe>
+      <iframe
+        title='google maps'
+        src={source}
+        width='600'
+        height='450'
+      ></iframe>
     </div>
   );
 };
