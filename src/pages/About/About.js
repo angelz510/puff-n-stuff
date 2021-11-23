@@ -4,7 +4,7 @@ import Logo from "../../assets/puff-logo.jpeg";
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div id='About' className="about-container">
       <img src={Logo} className="about-logo" alt="store-logo" />
       <h3>World Famous Puff N' Stuff</h3>
       <div className="about-description">
