@@ -3,15 +3,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 1rem;
   width: 100%;
   height: 100vh;
-  background: none;
 }
 
 .about-logo {
-  height: 10rem;
-  width: 10rem;
+  height: 14rem;
+  width: 14rem;
   margin: 1rem;
 }
 
