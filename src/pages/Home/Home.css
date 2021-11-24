@@ -10,3 +10,9 @@
   height: 750px;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 450px) {
+  .carousel-img {
+    height: 300px;
+  }
+}
