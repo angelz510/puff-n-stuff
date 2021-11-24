@@ -1,4 +1,4 @@
-.auth-container{
+.auth-container {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -7,42 +7,41 @@
   height: 100vh;
 }
 
-.age-logo{
+.age-logo {
   width: 200px;
   height: 80px;
 }
 
-.logo-container{
+.logo-container {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  
 }
 
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.btn{
-margin: 1.25rem;
-font-weight: bold;
+.btn {
+  margin: 1.25rem;
+  font-weight: bold;
 
-height: 35px;
-width: 180px;
-border: none;
-background-color: #F5F40B;
+  height: 35px;
+  width: 180px;
+  border: none;
+  background-color: #f5f40b;
 }
 
-.btn:hover{
-opacity: 0.5;
+.btn:hover {
+  opacity: 0.5;
 }
 
 .no-auth {
-display: flex;
-flex-flow: column wrap;
-text-align: center;
-height: 300px;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  height: 300px;
 }

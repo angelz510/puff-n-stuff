@@ -2,12 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 1;
+
   background: #198853;
   padding-left: 12%;
   padding-right: 12%;
+  height: 4.8rem;
 }
 
 .nav-logo {
@@ -36,4 +39,13 @@
 .link:hover {
   background-color: #f5f410;
   color: black;
+}
+
+@media screen and (max-width: 450px) {
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+  }
 }
