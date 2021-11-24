@@ -88,30 +88,24 @@
   border-radius: 5px;
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .maps {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
   }
+.name-group {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.name-input-size {
+  width: 90%;
+  margin:1rem;
+}
+.category-group {
+  width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
-  .maps {
-    width: 450px;
-    height: 450px;
-  }
 }
 
-@media only screen and (min-width: 768px) {
-  .maps {
-    width: 550px;
-    height: 550px;
-  }
-}
 
-@media only screen and (min-width: 992px) {
-  .maps {
-    width: 750px;
-    height: 750px;
-  }
-} */
