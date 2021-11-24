@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import MyNavbar from "./components/Nav";
+import Footer from "./components/Footer";
 import AgeAuth from "./components/AgeAuth";
 import "./App.css";
 import Home from "./pages/Home/Home";
@@ -17,11 +18,12 @@ function App() {
       ) : (
         <>
           <MyNavbar />
-          <div className='content-container' >
-          <Home />
-          <About />
-          <Contact />
+          <div className="content-container">
+            <Home />
+            <About />
+            <Contact />
           </div>
+          <Footer />
         </>
       )}
     </div>
