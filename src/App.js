@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import MyNavbar from "./components/Nav";
-import Footer from "./components/Footer";
-import AgeAuth from "./components/AgeAuth";
+import MyNavbar from "./components/Nav/Nav";
+import Footer from "./components/Footer/Footer";
+import AgeAuth from "./components/AgeAuth/AgeAuth";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
