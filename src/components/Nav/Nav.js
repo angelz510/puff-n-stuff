@@ -1,8 +1,8 @@
 import React from "react";
 import "./Nav.css";
-import Logo from "../assets/puff-logo.jpeg";
+import Logo from "../../assets/puff-logo.jpeg";
 
-const MyNavbar = () => {
+const Navbar = () => {
   return (
     <div className="nav-container">
       <img src={Logo} className="nav-logo" alt="puff n stuff" />
@@ -21,4 +21,4 @@ const MyNavbar = () => {
   );
 };
 
-export default MyNavbar;
+export default Navbar;

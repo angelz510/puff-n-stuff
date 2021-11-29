@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./AgeAuth.css";
-import Logo from "../assets/puff-logo-transparent.png";
+import Logo from "../../assets/puff-logo-transparent.png";
 import { useNavigate } from "react-router";
 
 const AgeAuth = (props) => {
